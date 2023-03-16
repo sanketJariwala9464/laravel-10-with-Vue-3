@@ -18,15 +18,11 @@ export const useAuthStore = defineStore('auth', () => {
     }
 
     const logout = () => {
-        try {
-            state.value.user = null;
-            state.value.token = null;
-            state.value.email = null;
-            state.value.isAuth = false;
-            router.push({ name: 'login' });
-        } catch (error) {
-            console.log('error -->', error);
-        }
+        state.value.user = null;
+        state.value.token = null;
+        state.value.email = null;
+        state.value.isAuth = false;
+        router.push({ name: 'login' });
     }
 
     const getAuthDetails = computed(() => {

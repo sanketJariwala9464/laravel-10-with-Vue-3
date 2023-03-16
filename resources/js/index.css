@@ -1,0 +1,41 @@
+.inactive{
+    background-color: #8C8C8C !important;
+    color: #FFFFFF !important;
+}
+
+.inactive:hover, .inactive:focus{
+    color: #FFFFFF !important;
+    border: 1px solid #8C8C8C !important;
+}
+
+.active{
+    background-color: #52C41A !important;
+    color: #FFFFFF !important;
+}
+
+.active:hover, .active:focus{
+    color: #FFFFFF !important;
+    border: 1px solid #52C41A !important;
+}
+
+.edit{
+    background-color: #B37FEB !important;
+    color: #FFFFFF !important;
+
+}
+
+.edit:hover, .edit:focus{
+    color: #FFFFFF !important;
+    border: 1px solid #B37FEB !important;
+}
+
+.delete{
+    background-color: #F5222D !important;
+    color: #FFFFFF !important;
+
+}
+
+.delete:hover, .delete:focus{
+    color: #FFFFFF !important;
+    border: 1px solid #F5222D !important;
+}

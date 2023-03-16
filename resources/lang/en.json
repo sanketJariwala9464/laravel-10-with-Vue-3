@@ -1,0 +1,36 @@
+{
+    "required" : ":0 is required.",
+    "numeric" : ":0 should be number only.",
+    "date" : ":0 should be date only.",
+    "unique" : ":0 is already exist.",
+    "email" : ":0 should be email only.",
+    "minLength" : "Please enter valid :0 with :1 digits only.",
+    "digits" : ":0 should be :1 digits only.",
+
+    "insert" : ":0 inserted successfully.",
+    "fail_insert" : "There is an issue inserting :0. Please try again.",
+
+    "fetch" : ":0 details fetched successfully.",
+    "fail_fetch" : "There is an issue fetching :0 details. Please try again.",
+
+    "update" : ":0 updated successfully.",
+    "fail_update" : "There is an issue updating :0. Please try again.",
+
+    "delete" : ":0 deleted successfully.",
+    "fail_delete" : "There is an issue deleting :0. Please try again.",
+
+    "status" : ":0 status updated successfully.",
+    "fail_status" : "There is an issue changing status of :0. Please try again.",
+
+    "general_fail" : "Oops! Something went wrong. Please try again.",
+
+    "not_found" : "No :0 found. Please try again later.",
+
+    "invalid_credentials": "Invalid email address or password.",
+    "login_success" : "User logged in successfully!",
+    "logout_success" : "User logged out successfully!",
+
+    "activated" : ":0 activated successfully.",
+    "deactivated" : ":0 deactivated successfully."
+
+}
